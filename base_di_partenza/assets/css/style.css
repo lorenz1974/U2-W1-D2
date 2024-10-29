@@ -426,6 +426,12 @@ footer a {
 /* ELEMENTI FISSI
 /* ------------------------------------------------------------------------- */
 
+header {
+  position: sticky;
+  top: 0rem;
+  z-index: 5;
+}
+
 h1 {
   display: inline;
   background-image: url("../img/underline.svg");
@@ -471,6 +477,7 @@ aside div>i {
   font-size: 2rem;
   position: fixed;
   right: 0;
+  z-index: 10;
 }
 
 #plus {
